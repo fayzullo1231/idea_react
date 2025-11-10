@@ -1,0 +1,279 @@
+.proekt_header {
+    background-image: url(../../assets/proekt_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 56px 0 40px 0;
+    margin-bottom: 64px;
+}
+
+.proekt_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 13px;
+    background-color: #365F38CC;
+    border-radius: 28px;
+}
+
+.proekt_namee {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -5%;
+    color: white;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_link {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 18px;
+    line-height: 100%;
+    color: white;
+}
+
+
+.nomer {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 18px;
+    line-height: 100%;
+    color: white;
+}
+
+
+.nav_btn {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    color: #365F38;
+
+    padding: 12px 24px;
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+
+}
+
+.header_text {
+    margin-top: 375px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.header_text p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: white;
+}
+
+.header_text h1 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 100%;
+    color: white;
+    width: 100%;
+}
+
+.divv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.language_div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.proekt_main {
+    margin-bottom: 64px;
+}
+
+
+.proekt_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 64px;
+}
+
+.proekt_li {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    position: relative;
+}
+
+.proekt_li h3  {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 30px;
+
+}
+
+.proekt_li img {
+    width: 100%;
+
+}
+
+.proekt_li p {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 38px;
+}
+
+.menu {
+    display: none;
+}
+
+
+
+@media (max-width: 800px) {
+    .proekt_header {
+        background-image: url(../../assets/proekt_img.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 32px 20px;
+    }
+
+    .nav_link {
+        display: none;
+    }
+    .proekt_navbar {
+        background-color: #365F38;
+    }
+    .ru {
+        width: 30px; 
+        height: 30px;
+    }
+
+    .menu {
+        display: block;
+        color: white;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .nav_btn {
+        display: none;
+    }
+    .nomer {
+        display: none;
+    }
+
+
+    .proekt_li h3  {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    margin-bottom: 20px;
+    }
+
+    .proekt_li img {
+        width: 100%;
+    }
+
+    .proekt_li p {
+    font-weight: 500;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+ }  
+
+
+ @media (max-width: 400px) {
+  .proekt_header {
+    background-image: url(../../assets/proekt_img.png);
+    background-size: cover;
+    padding: 26px 16px 32px 16px;
+
+  }
+
+  .proekt_navbar {
+    padding: 12px 10px;
+    border-radius: 16px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .proekt_name {
+    font-size: 16px;
+  }
+
+  .menu {
+    display: block;
+    font-size: 28px;
+    color: white;
+  }
+
+  .ru {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav_list, .nav_btn, .nomer {
+    display: none;
+  }
+
+  .header_text {
+    margin-top: 230px;
+    row-gap: 12px;
+  }
+
+  .mmm {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 100%;
+  }
+
+  .kkk {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 80%;
+  }
+
+
+  .proekt_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .proekt_li {
+    width: 100%;
+  }
+}   

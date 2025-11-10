@@ -1,0 +1,798 @@
+.main_main {
+    padding: 65px 0;
+}
+
+.main_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 64px;
+
+}
+
+.main_li {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    transition: 1s;
+    padding: 10px;
+}
+
+    
+.text_divl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.la h3 {
+    text-align: end;
+}
+.la p {
+    text-align: end;
+}
+
+.text1_div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.reflesh_button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    padding: 19px 24px;
+    background-color: #E3E3E3;
+    border: none;
+    border-radius: 16px;
+    margin: 64px auto;
+    display: block;
+}
+
+.zone {
+    background-image: url(../../assets/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 273px 0 48px 0;
+    color: white;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+
+}
+
+.zone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.zone_1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.zone_1 p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.zone_1 h3 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.zone_2_btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+
+    padding: 16px 24px;
+    border: none;
+    border-radius: 16px;
+    background-color: #365F38;
+}
+
+
+.black_zone {
+    background-color: #323232;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 95px 0 45px 0;
+}
+
+
+
+.bg_section {
+    background-image: url(../../assets/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 273px 0 48px 0;
+    border-top-right-radius: 24px;
+    margin-top: 64px;
+}
+
+.lol_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lol_left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+
+.lol_left p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: white;
+}
+
+.lol_left h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 100%;
+    color: white;
+}
+
+.lol_right button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+
+    padding: 16px 24px;
+    background-color: #365F38;
+    border: none;
+    border-radius: 16px;
+}
+
+
+.black_div {
+    padding: 95px 0 45px 0;
+    background-color: #323232;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+
+}
+
+
+
+.lgbt img {
+    height: 40px;
+    width: 110px;
+}
+
+
+.blck_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texts_div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    color: white;
+    width: 35%;
+}
+
+.texts_div h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.texts_div p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #C8C8C8;
+}
+
+.flex_div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    background-color: #434343;
+    border-radius: 16px;
+    padding: 78px 52px 24px 24px;
+    color: white;
+    height: 160px;
+    width: 210px;
+    position: relative;
+}
+
+.flex_div h1 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+}
+
+.flex_div img {
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+}
+
+.lgbt {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    background-color: #434343;
+    border-radius: 16px;
+    padding: 24px 80px 24px 24px;
+    height: 160px;
+    width: 250px;
+    color: white;
+}
+
+.lgbt h1 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+
+.iskiz_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #434343;
+    border-radius: 16px;
+    padding: 40px 15px;
+    color: white;
+    height: 160px;
+    width: 450px;    
+}
+
+.iskiz_div h1 {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    width: 65%;
+
+}
+
+.lala {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-left: auto;
+
+}
+
+
+.uslugi {
+    padding: 64px 0;
+}
+
+.uslug_name {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 100%;
+}
+
+.uslug_text {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 100%;
+    margin: 32px 0 64px 0; 
+}
+
+.uslug_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.uslug_li {
+    width: 24%;
+    color: white;
+    position: relative;
+}
+
+.uslug_li h3 {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 50%;
+}
+
+.uslug_li img {
+    width: 100%;
+}
+
+
+.uslug_list2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.uslug_li2 {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px;
+    padding: 24px 65px 24px 24px;
+    background: #F4F3FE;
+    border: 1px solid #32323299;
+    height: 250px;
+    border-radius: 24px;
+}
+
+.uslug_li2 h2 {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 28px;
+    line-height: 100%;
+    color: #323232;
+    margin-bottom: auto;
+}
+
+.uslug_li2 p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    color: #323232;
+    margin-top: auto;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .container {
+        padding: 0 20px;
+    }
+    .main_list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main_li {
+        width: 48%;
+    }
+    .main_li h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .main_li p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #00000080;
+    }
+    .la h3 {
+        text-align: end;
+    }
+    .la p {
+        text-align: end;
+    }
+    .text1_div {
+        width: 48%;
+    }
+    .la {
+        margin-left: auto;
+        justify-content: end;
+    }
+    .bg_section {    
+        padding: 150px 20px 64px 20px   ;
+        background-image: url(../../assets/pipi.png);
+        height: auto;
+        justify-content: start;
+        background-size: cover;
+        background-position: center;
+    }
+    .lol_div {
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+        width: 65%;
+    }
+ .lol_left p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 100%;
+    width: 100%;
+    }
+    .lol_left h2 {
+    font-weight: 700;
+    font-size: 30x;
+    line-height: 100%;
+    width: 50%;
+    }
+   .lol_right {
+        margin-right: auto;
+   }
+
+    .lol_right button {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .blck_div {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        padding: 0 0 0 20px ;
+        padding: 16px 20px 32px 20px;
+    }
+    .texts_div {
+        width: 100%;
+        
+        margin-bottom: 64px;
+    }
+    .texts_div h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 100%;
+    }
+    .texts_div p {
+        width: 70%;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 100%;
+    }
+    .lala {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+    .lgbt {
+        width: 48%;
+        
+    }
+    .flex_div {
+        width: 48%;
+    }
+    .iskiz_div {
+        width: 98%;
+    }
+    .lala h1 {
+        font-weight: 600;
+        font-size: 25px;
+        }
+    .lgbt h1 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 100%;
+        width: 100%;
+        margin-top: auto;
+    }
+    .lgbt img {
+        width: 120px;
+        height: 40px;
+    }
+    .flex_div h1 {
+         font-weight: 700;
+        font-size: 25px;
+        line-height: 100%;
+        width: 100%;
+        margin-top: auto;
+    }
+    .flex_div img {
+        width: 120px;
+        height: 120px;
+        left: 10px;
+    }
+    .iskiz_div {
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .iskiz_div h1 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 100%;
+        width: 60%;
+    }
+    .iskiz_div img {
+        width: 150px;
+        height: 150px;
+    }
+    .uslugi {
+        padding: 0 20px;
+        margin: 64px 0;
+    }
+
+    .uslug_list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+    .uslug_li {
+        width: 48%;
+    }
+    .uslug_list2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+
+    .uslug_li2 {
+        width: 48%;
+    }
+}
+
+
+
+
+@media (max-width: 400px) {
+    
+    
+    .main_li {
+        width: 98%;
+    }
+
+    .text1_div h3 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 100%;
+    }
+    .text1_div p {
+        font-weight: 300;
+        font-style: Light;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #00000080;
+
+    }
+    
+    .text_divl {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .la h3 {
+        text-align: end;
+    }
+    .la p {
+        text-align: end;
+    }
+
+    
+
+    .lol_left {
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+        margin: 0;
+    }
+    .lol_left p {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+
+    }
+    .lol_left h2 {
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        width: 100%;
+
+    }
+
+    .bg_section {
+        padding: 100px 0;
+        background-image: url(../../assets/pipi.png);
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        width: 100%;
+
+    }
+    .lol_right {
+        width: 100%;
+
+    }   
+    .lol_right button {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .texts_div {
+        margin-top: 0px;
+    }
+
+    .black_div {
+        padding:  0;
+        width: 100%;
+    }
+  
+    .texts_div h1 {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .texts_div p {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    .lala {
+        margin-top: -70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .lgbt {
+        width: 48%;
+        box-sizing: border-box;
+        padding: 16px;
+        height: 120px;
+    }
+    .lgbt h1 {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        width: 80%;
+    }
+    .lgbt img {
+        width: 62px;
+        height: 20px;
+    }
+    .flex_div {
+        width:  48%;
+        box-sizing: border-box;
+        padding: 16px;
+        height: 120px;
+    }
+    .flex_div h1 {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    .flex_div img {
+        width: 100px;
+        height: 100px;
+        bottom: 50px;
+    }
+    .iskiz_div {
+        width: 100%;
+        height: 120px;
+    }
+    .iskiz_div img {
+        width: 100px;
+        height: 100px;
+    }
+    .iskiz_div h1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    
+    .uslugi {
+        padding: 16px 0;
+        margin: 24px 0;
+    }
+    .uslug_name {
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        width: 90%;
+        margin: 16px auto;
+    }
+    .uslug_text {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .uslug_list {
+        width: 90%;
+        margin: 24px auto;
+    }
+    .uslug_li {
+        height: 160px;
+    }
+    .uslug_li img {
+        width: 100%;
+        height: 160px;
+    }
+    .uslug_li h3 {
+        width: 80%;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    .uslug_list2 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .uslug_li2 {
+        width: 100%;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        height: 120px;
+    }
+    .uslug_li2 h2 {
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    .uslug_li2 p {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+}

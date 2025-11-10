@@ -1,0 +1,208 @@
+.page_header {
+    background-image: url(../../assets/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0 40px 0;
+    border-radius: 24px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 13px;
+    background-color: #365F38CC;
+    border-radius: 28px;
+}
+
+.proekt_name {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 100%;
+    color: white;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_link {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 18px;
+    line-height: 100%;
+    color: white;
+}
+
+
+.nomer {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 18px;
+    line-height: 100%;
+    color: white;
+}
+
+
+.nav_btn {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    color: #365F38;
+
+    padding: 12px 24px;
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.nav_btn:active {
+    cursor: pointer;
+}
+
+
+
+.header_text {
+    margin-top: 375px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.mmm {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: white;
+}
+
+.kkk {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 100%;
+    color: white;
+    width: 50%;
+}
+
+.divv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.language_div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu {
+    display: none;
+}
+
+
+ @media (max-width: 800px) {
+    .page_header {
+        background-image: url(../../assets/1page_res.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 32px 20px;
+    }
+
+    .nav_link {
+        display: none;
+    }
+    .navbar {
+        background-color: #365F38;
+    }
+    .ru {
+        width: 30px; 
+        height: 30px;
+    }
+
+    .menu {
+        display: block;
+        color: white;
+        font-weight: 400;
+        font-size: 40px;
+    }
+    .nav_btn {
+        display: none;
+    }
+    .nomer {
+        display: none;
+    }
+
+    
+    .kkk {
+      width: 90%;
+    }
+
+ }  
+
+@media (max-width: 400px) {
+  .page_header {
+    background-image: url(../../assets/1page_res.png);
+    background-size: cover;
+    padding: 26px 16px 32px 16px;
+
+  }
+
+  .navbar {
+    padding: 12px 10px;
+    border-radius: 16px;
+    margin-bottom: 230px;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .proekt_name {
+    font-size: 16px;
+  }
+
+  .menu {
+    display: block;
+    font-size: 28px;
+    color: white;
+  }
+
+  .ru {
+    width: 20px;
+    height: 20px;
+  }
+
+  .nav_list, .nav_btn, .nomer {
+    display: none;
+  }
+
+  .header_text {
+    row-gap: 12px;
+  }
+
+  .mmm {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 100%;
+  }
+
+  .kkk {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 80%;
+  }
+}   

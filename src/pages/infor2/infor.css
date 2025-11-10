@@ -1,0 +1,212 @@
+.Infor {
+    background-image: url(../../assets/lala.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0 25px 25px;
+    height: 400px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin: 64px 0 30px 0;
+}
+
+
+.vvv {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: auto;
+}
+
+.checkk {
+    width: 25px;
+    height: 25px;
+}
+.aa {
+    width: 60%;
+}
+
+
+
+.infor_name {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 100%;
+    color: white;
+    width: 60%;
+}
+
+
+.textt_div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    width: 20%;
+}
+
+.asss {
+    width: 90%;
+    margin-right: auto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+
+}
+
+
+
+
+
+
+.form_divv {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.underr_div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-top: 40px;
+}
+
+
+.form {
+    padding: 16px 145px 16px 24px;
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+}
+
+input {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    color: #868686;
+    padding: 16px 24px;
+    background-color: white;
+    border: none;
+    border-radius: 16px;
+    width: 250px;
+}
+
+.form_btn {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+
+    padding: 16px 24px;
+    background-color: #365F38;
+    border: none;
+    border-radius: 16px;
+    margin-top: auto;
+}
+
+
+
+ @media (max-width: 800px) {
+     .Infor {
+        background-image: url(../../assets/nini.jpg);
+        margin: 0 20px;
+        height: 870px;
+        margin-bottom: 64px;
+        background-position: center;
+        background-size: cover;
+    }
+    .infor_name {
+        width: 90%;
+        font-size: 40px;
+    }
+    .bottom_div {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        position: relative;
+        z-index: 2;
+        color: white;
+        margin-bottom: 350px;
+    }
+    .textt_div {
+        width: 100%;
+    }
+    .asss {
+        width: 60%;
+        font-size: 22px;
+        font-weight: 600;
+        margin-right: auto;
+        color: white;
+    }
+    
+    .form_divv {
+        display: flex;
+        flex-direction: column;
+        row-gap: 14px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .underr_div {
+        width: 80%;
+        justify-content: center;
+    }
+    form {
+        width: 100%;
+        background-color: white;
+        border-radius: 24px;
+        margin: 0 auto;
+    }
+    .form_btn {
+        width: 80%;
+        margin-top: 24px;
+    }
+    
+ }
+
+ @media (max-width: 400px) {
+    .container {
+        padding: 0 16px;
+    }
+    .Infor {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../../assets/nini.jpg);
+        margin-left: auto;
+        margin-bottom: 64px;
+        background-position: -550px;
+        background-size: cover;
+        width: 100%;
+        height: 750px;
+    }
+    .infor_name {
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        width: 100%;
+
+    }
+    .asss {
+        width: 90%;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+    .aa {
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 10px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        width: 60%;
+    }
+}
