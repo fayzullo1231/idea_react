@@ -1,9 +1,6 @@
 import './App.css'
 import Header from './pages/header/Header'
-import Main from './pages/main/Main'
-import Information from './pages/information/Information'
-import Infor from './pages/infor2/Infor'
-import Footer from './pages/footer/Footer'
+import Footer from './components/footer/Footer'
 import Proekt from './pages/proekt/Proekt'
 import Plan from './pages/plan/Plan'
 import { Route, Routes } from 'react-router-dom'
@@ -15,45 +12,37 @@ function App() {
     <>
       <Routes>
         <Route
-        path="/"
-        element={
-          <>
-              <Header/>
-              <Main/>
-              <Information/>
-              <Infor/>
-              <Footer/>
-          </>
-        }
+          path="/"
+          element={
+            <>
+              <Header />
+            </>
+          }
         />
         <Route
-        path='/proekt' element={
-       <>
-         <Proekt/>
-        <Information/>
-        <Footer/>
-       </>
-      }
+          path='/proekt' element={
+            <>
+              <Proekt />
+            </>
+          }
         />
         <Route
-        path='/plan' element={
-          <>
-            <Plan/>
-            <Information/>
-            <Footer/>
-          </>
-        }
+          path='/plan' element={
+            <>
+              <Plan />
+            </>
+          }
         />
         <Route
-        path='/kompaniya' element={
-          <>
-          <Kompaniya/>
-          <Information/>
-          <Footer/>
-          </>
-        }
+          path='/kompaniya' element={
+            <>
+              <Kompaniya />
+            </>
+          }
         />
       </Routes>
+      <Footer />
+
     </>
   )
 }

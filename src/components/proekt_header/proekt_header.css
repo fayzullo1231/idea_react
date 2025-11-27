@@ -1,10 +1,10 @@
-.page_header {
-  background-image: url(../../assets/header_bg.png);
+.proekt_header {
+  background-image: url(../../assets/proekt_img.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   padding: 30px 0 40px 0;
   border-bottom-right-radius: 24px;
+  margin-bottom: 64px;
 }
 
 .menu_zone {
@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 
 .header_text {
   margin-top: 375px;
@@ -24,64 +25,43 @@
 .mmm {
   font-weight: 400;
   font-size: 24px;
-  line-height: 140%;
+  line-height: 100%;
   color: white;
-  word-break: break-word;
 }
 
 .kkk {
   font-weight: 700;
   font-style: Bold;
   font-size: 56px;
-  line-height: 140%;
+  line-height: 100%;
   color: white;
   width: 50%;
-  word-break: break-word;
 }
 
-@media (max-width: 1400px) {
-  .page_header {
+
+
+@media (max-width:1280px) {
+  .proekt_header {
     padding: 20px;
   }
+
 
   .kkk {
     width: 60%;
-    font-size: 48px;
   }
 }
 
-@media (max-width: 1200px) {
-  .page_header {
-    padding: 20px;
-  }
+
+@media (max-width:1024px) {
+
+  
 
   .kkk {
-    width: 70%;
-    font-size: 40px;
+    width: 90%;
   }
 
-  .mmm {
-    font-size: 20px;
-  }
-}
 
-@media (max-width: 992px) {
-  .page_header {
-    padding: 20px;
-  }
 
-  .kkk {
-    width: 85%;
-    font-size: 32px;
-  }
-
-  .mmm {
-    font-size: 18px;
-  }
-
-  .header_text {
-    margin-top: 200px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -90,43 +70,32 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: 32px 20px;
-    background-size: cover;
   }
 
   .kkk {
-    width: 100%;
-    font-size: 28px;
+    width: 90%;
   }
 
-  .mmm {
-    font-size: 16px;
-  }
-
-  .header_text {
-    margin-top: 150px;
-    row-gap: 20px;
-  }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   .page_header {
     background-image: url(../../assets/1page_res.png);
     background-size: cover;
-    background-position: center;
-    padding: 20px 16px 32px 16px;
+    padding: 26px 16px 32px 16px;
     border-bottom-left-radius: 24px;
-  }
 
+  }
   .header_text {
-    margin-top: 100px;
     row-gap: 12px;
   }
 
   .mmm {
     font-weight: 400;
     font-style: Regular;
-    font-size: 14px;
-    line-height: 130%;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
     width: 100%;
   }
 
@@ -134,7 +103,8 @@
     font-weight: 700;
     font-style: Bold;
     font-size: 18px;
-    line-height: 130%;
-    width: 100%;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 80%;
   }
 }
